@@ -4,14 +4,15 @@ class Vector2D {
 		this.y = y;
 	}
 	
-	MoveTowards(object, target, speed){
-		var distanceX = object.x - target.x;
-		var distanceY = object.y - target.y;
+	GetDistanceX(object, target){
+		distanceX = (object.x - target.x);
 		
-		speed.x * 100;
-		speed.y * 100;
+		return distanceX;
+	}
+	
+	GetDistanceY(object, target){
+		distanceY = (object.y - target.y);
 		
-		(object.x -= (distanceX / speed.x));
-		(object.y -= (distanceY / speed.y));
+		return distanceY;
 	}
 }
