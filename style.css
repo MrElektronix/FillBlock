@@ -1,6 +1,15 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+	width:  100%;
+  	height: 100%;
+}
+
+
 #canvas {
-  margin: auto;
-  border: solid black 2px;
-  display: block;
-  background-color: grey;
+	left: 0;
+	top: 0;
+	display: block;
+	background-color: black;
 }

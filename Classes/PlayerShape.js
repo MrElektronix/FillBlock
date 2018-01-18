@@ -5,14 +5,14 @@ class PlayerShape extends Rectangle {
 		this.expandingBool;
 		this.expandingSpeed;
 		this.direction;
-			
+		
 		this.Start();
 	}
 	
 	Start(){
 		this.expandingBool = true;
 		this.expandingSpeed = 1;
-		this.direction = "right";
+		this.direction = "left";
 	}
 	
 	Move(mx, my){
